@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 게시판 전체 div */
+.boardBody *{ margin:0; padding:0; line-height:18px; }
+.boardBody { width:100%; min-width:600px; color:#333; font-size:12px; }
+.boardBody input, .boardBody select, .boardBody textarea { font-size:12px; }
+
+/* List Tag */
+ol, ul {margin:0; padding:0; list-style:none; }
+dl, dd, dt {margin:0; padding:0;}
+p, blockquote {margin:0; padding:0;}
+hr {display:none;}
+
+/* 게시판 색상 */
+.boardWriteForm table { border-top:3px solid #999; } /* 글쓰기 */
+.boardViewHeader .jn_title { border-bottom:2px solid #999; } /* 뷰 */
+.prev-next { border-top:2px solid #999; } /* 이전글-다음글 */
+.secretWrite fieldset, .pwdConfirm fieldset, .delConfirm fieldset { border:3px solid #999; } /* 비밀글, 비밀번호, 삭제하기 */
+.secretWrite legend, .pwdConfirm legend, .delConfirm legend { background:#999; } /* 리스트, 비밀글, 비밀번호, 삭제하기 */
+
+/* 리스트 */
+#faqListBody { position:relative; clear:both; float:none; border:0;}
+.faqList { margin-bottom:20px;  background-color: #F7F7F7; border: 1px solid #E7E7E7; padding:8px 5px 5px; }
+#faqListBody dt {padding:0 7px; margin-bottom:7px; font-weight:bold; font-size:12px; }
+#faqListBody dt img {vertical-align:middle; margin-right:5px;}
+#faqListBody dl.faq_a { /*border-bottom:1px dotted #eee;*/ padding:0 7px; word-break:break-all; background-color: #fff; border: 1px solid #E7E7E7;}
+#faqListBody dl.faq_a dt { float:left; width:20px; background:none; border:0; font-weight:bold; font-size:14px; color:#F60; padding:7px 0;}
+#faqListBody dl.faq_a dd.jn_answer {margin-left:30px; padding:7px 0;}
+ul.modifyBtn { clear:both; float:none; text-align:right; margin-bottom:20px;}
+
+/* 글쓰기 */
+.boardWriteForm { padding:10px 10px 0 10px; }
+.boardWriteForm caption, .boardWriteForm label { position:absolute; width:0; height:0; overflow:hidden; font:0/0 san-serif; visibility:hidden; }
+.boardWriteForm table { clear:both; float:none; width:100%; }
+.boardWriteForm table { border-bottom:1px solid #eee; }
+.boardWriteForm table th, .boardWriteForm table td { padding:5px; }
+.boardWriteForm table th, .boardWriteForm table td { border-bottom:1px solid #eee; }
+.boardWriteForm table th { background:#F7F7F7; text-align:left; width:100px; }
+.boardWriteForm input { height:18px; border:1px solid #CCC; }
+.boardWriteForm textarea { width:100%; border:1px solid #CCC; }
+.boardWriteForm input.writeName { width:200px; }
+.boardWriteForm input.writeEmail { width:200px; }
+.boardWriteForm input.writePass { width:200px; }
+.boardWriteForm input.homepage { width:200px; }
+.boardWriteForm input.writeTitle  { width:100%; }
+.boardWriteForm input.addfile  { width:100%; }
+.boardWriteStyle li { float:left; margin-right:15px; }
+.boardWriteStyle input.noneBorder { border:none; vertical-align:middle }
+
+/* 페이징 */
+.boardPagination {clear:both; text-align:center; margin:20px 0 0 0;}
+.boardPagination img { padding-bottom:3px; vertical-align:top; }
+.boardPagination strong {background: #5982af; border: 1px solid #4a77a6; color: #FFFFFF; display: inline-block; font-weight: bold; height: 22px; line-height: 23px; text-align: center; vertical-align: middle; width: 22px;}
+.boardPagination a.paging_num {background: #fff; border: 1px solid #CDCDCD; color: #585858; display: inline-block; height: 22px; line-height: 23px; text-align: center; text-decoration: none; vertical-align: middle; width: 22px;}
+.boardPagination .prev {padding: 0 7px 0 2px;}
+.boardPagination .next {padding: 0 2px 0 5px;}
+
+/* 버튼 */
+.boardBtn { text-align:right; }
+.viewBtn { margin:20px 10px; overflow:hidden; }
+.btnLeft { float:left; text-align:left; }
+.btnLeft li {float:left; margin-right:5px;}
+.btnRight {float:right; text-align:right;}
+.boardWriteForm div.boardWriteBtn { width:100%; text-align:center; margin:10px 0; overflow:auto; }
+.boardWriteForm div.boardWriteBtn li { display:inline; padding:1px }
+.boardWriteBtn input { width:47px; height:23px; border:0; }
+.pwdConfirmForm .okbtn { width:55px; height:23px; border:0; }
+.secretWriteForm .okbtn { width:55px; height:23px; border:0; }

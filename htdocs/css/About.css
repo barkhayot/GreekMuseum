@@ -1,0 +1,49 @@
+#sub_main #sub_contents article img{
+    margin: 30px 0;
+    width: 100%;
+}
+#sub_main #sub_text div{
+    padding: 40px 0;
+    border: 1px solid #ddd;
+}
+#sub_main #sub_text div h2{
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+}
+#sub_main #sub_text div p{
+    width: 75%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: small;
+    color: #555;
+}
+#sub_main #sub_text div p:nth-child(2){
+    color: #bbb;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+#sub_main #sub_text div p:nth-child(5){
+    color: royalblue;
+    font-weight: bold;
+}
+#sub_main #sub_contact div{
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    margin: 150px 0 80px 0;
+}
+#sub_main #sub_contact div h5{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+#sub_main #sub_contact div h5 span{
+    padding: 0 20px;
+    font-weight: normal;
+    color: #777;
+}

@@ -1,0 +1,32 @@
+/* FreeBoard Table */
+.FreeBoard_table_tr {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999;
+	border-bottom-color: #eee;
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+	font-family: �뗭�;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #535353;
+	background-color: #F9F9F9;
+	text-align: center;
+	padding:5px 3px;
+	
+}
+.FreeBoard_table_td {
+	border-bottom-style: solid;
+	border-bottom-color: #E2E2E2;
+	border-bottom-width: 1px;
+	padding:5px 3px;	
+}
+
+/* 寃뚯떆湲� ��젣 */
+#delConfirm { text-align:center; padding-top:30px; }
+#delConfirm fieldset { width:600px; margin:auto; border:2px solid #eee; }
+#delConfirm legend { width:300px; margin-left:140px; padding:13px 0; text-align:center; font-weight:bold; color:#fff; font-size:9pt; background-color:#000; }
+#delConfirm p { font-weight:bold; margin-top:20px; }
+#delConfirm ul.delBtn { margin:10px 0 20px 0; }
+#delConfirm ul.delBtn input { border:0; }
+#delConfirm ul.delBtn li { display:inline; padding:1px; height:23px; }
